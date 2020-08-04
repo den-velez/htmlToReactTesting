@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from './components/pages/App'
+import './styles/globals.scss'
 
-ReactDOM.render(<App />, document.getElementById('container'))
+import App from './components/pages/App'
+import TitleAside from './components/atoms/TitleAside/TitleAside'
+
+ReactDOM.render(<TitleAside />, document.getElementById('container'))
