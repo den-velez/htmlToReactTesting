@@ -3,7 +3,7 @@ import './TitleAside.scss'
 
 function TitleAside() {
 	return (
-		<div class="menu-link">
+		<div className="menu-link">
 			<a href="">ARTIST</a>
 		</div>
 	)
