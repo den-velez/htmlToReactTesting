@@ -1,5 +1,4 @@
 import React from 'react'
-import './UserName.scss'
 
 function UserName (){
     return(

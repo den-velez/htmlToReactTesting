@@ -5,7 +5,7 @@ function LogoHeader (){
     return(
         <div class="header-logo">
             <span>
-                <img src="../../assets/CeolLogoWhite.svg" alt="Ceol Logo"/>
+                <img src="./src/assets/CeolLogoWhite.svg" alt="Ceol Logo"/>
             </span>
         </div>
     )

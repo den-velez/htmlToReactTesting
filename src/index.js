@@ -5,11 +5,17 @@ import './styles/globals.scss'
 
 // import App from './components/pages/App'
 // import TitleAside from './components/atoms/TitleAside/TitleAside'
-import CoverAlbum from './components/atoms/CoverAlbum/CoverAlbum'
-import TitleCategory from './components/atoms/TitleCategory/TitleCategory'
+import LogoHeader from './components/atoms/LogoHeader/LogoHeader'
+import ProfileHeader from './components/molecules/ProfileHeader/ProfileHeader'
 
-import LibraryItem from './components/molecules/LibraryItem/LibraryItem'
-import LibraryResult from './components/organims/LibraryResult/LibraryResult'
-import Library from './components/templates/Library/Library'
+import ProfileImg from './components/atoms/ProfileImg/ProfileImg'
+import ProfileInput from './components/atoms/ProfileInput/ProfileInput'
+import ProfileButton from './components/atoms/ProfileButton/ProfileButton'
 
-ReactDOM.render(<Library />, document.getElementById('container'))
+import UserAvatar from './components/atoms/UserAvatar/UserAvatar'
+import UserName from './components/atoms/UserName/UserName'
+import UserIcon from './components/atoms/UserIcon/UserIcon'
+
+import Profile from './components/templates/Profile/Profile'
+
+ReactDOM.render(<Profile />, document.getElementById('container'))
