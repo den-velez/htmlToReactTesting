@@ -3,10 +3,9 @@ import './ProfileImg.scss'
 
 function ProfileImg (){
     return(
-        <div class="profile-input">
-            <h2>InputTitle</h2>
-            <input type="text" name="" placeholder=""/>
-        </div>
+        <span class="profile-image">
+            <img src="" alt=""/>
+        </span>
     )
 }
 
